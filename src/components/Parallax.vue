@@ -1,5 +1,5 @@
 <template>
-  <div class="parallax-custom" :style="srctest">
+  <div class="parallax-custom" :style="srcParallax">
     <slot></slot>
   </div>
   
@@ -10,13 +10,9 @@
     props: ['photoSrc'],
     data () {
       return {
-        srctest: `background-image: url("${this.photoSrc}")`,
+        srcParallax: `background-image: url("${this.photoSrc}")`,
       }
     },
-    mounted() {
-
-      console.log(this.srctest);
-    }
   }
 </script>
 

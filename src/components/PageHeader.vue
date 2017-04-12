@@ -1,6 +1,6 @@
 <template>
   <header>
-    <v-nav>
+    <v-nav class="navbar-fixed">
       <v-container>
         <a href="#!" class="brand-logo" slot="logo">Logo</a>
         <ul slot="items" class="right">

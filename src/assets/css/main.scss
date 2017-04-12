@@ -1,9 +1,59 @@
+.text-shadow {
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.icon-block {
+  padding: 0 15px;
+
+  .material-icons {
+    font-size: inherit;
+  }
+
+  .light {
+    text-align: left;
+    // text-align: justify;
+
+    // &:after {
+    //   content: "";
+    //   display: inline-block;
+    //   width: 100%;
+    // }
+  }
+}
+
+/////////////////////////////////////
 .nav-wrapper {
   // background-color: red;
 }
 
 .main-container {
-  .aa {
-    height: 300px;
+  .first-parallax {
+    height: 150vh;
+    margin-bottom: 0;
+
+    .parallax-custom {
+      display : flex;
+      align-items : center;
+    }
+  }
+
+  .second-parallax {
+    height: auto;    
+    text-align: center;
+    @extend .first-parallax;
+  }
+
+  .content {
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0
+  }
+}
+
+footer {
+  &.page-footer {
+    margin-top: 0;
   }
 }

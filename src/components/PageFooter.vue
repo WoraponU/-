@@ -18,5 +18,5 @@
         </div>
     </div>
     <div class="container" slot="copyright">&copy; Copyright 2016</div>    
-</v-footer>
+	</v-footer>
 </template>
