@@ -9,10 +9,8 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "bulma": "^0.3.2",
     "vue": "^2.2.1",
-    "vue-bulma-collapse": "^1.0.3",
-    "vue-bulma-modal": "^1.0.1",
+    "vue-materials": "^1.0.7-rc.7",
     "vue-router": "^2.3.0"
   },
   "devDependencies": {

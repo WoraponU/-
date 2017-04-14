@@ -1,10 +1,10 @@
 <template>
-  <v-row class="second-parallax">
+  <v-row class="second-content">
     <Parallax photoSrc="https://cdn.suwalls.com/wallpapers/abstract/grey-wood-floor-27062-1920x1080.jpg">
       <v-container>
         <v-row>
           <v-grid s12 m12 l12>
-            <h2>คำอธิบาย</h2>
+            <h3>คำอธิบาย</h3>
           </v-grid>        
         </v-row>
       
@@ -36,6 +36,7 @@
         </v-row>
       </v-container>
     </Parallax>
+    
   </v-row>
 </template>
 
@@ -45,6 +46,11 @@
   export default {
     components: {
       Parallax,
+    },
+    data () {
+      return {
+        test: '',
+      }
     },
   }
 </script>

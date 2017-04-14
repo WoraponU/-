@@ -1,29 +1,39 @@
 <template>
   <main class="main-container">
+    
     <section>
-      <FirstParallax></FirstParallax>
+    <transition>
+      <FirstContent></FirstContent>
+    </transition>
+      
     </section>
 
     <section>
-      <SecondParallax></SecondParallax>
+      <SecondContent></SecondContent>
     </section>
 
     <section>
-      <ThirdParallax></ThirdParallax>
+      <ThirdContent></ThirdContent>
+    </section>
+
+    <section>
+      <FourthContent></FourthContent>
     </section>
   </main>
 </template>
 
 <script>
-  import FirstParallax from './FirstParallax.vue'
-  import SecondParallax from './SecondParallax.vue'
-  import ThirdParallax from './ThirdParallax.vue'
+  import FirstContent from './FirstContent.vue'
+  import SecondContent from './SecondContent.vue'
+  import ThirdContent from './ThirdContent.vue'
+  import FourthContent from './FourthContent.vue'
 
   export default {
     components: {
-      FirstParallax, 
-      SecondParallax, 
-      ThirdParallax, 
+      FirstContent, 
+      SecondContent, 
+      ThirdContent, 
+      FourthContent, 
     },
   }
 </script>

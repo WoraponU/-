@@ -1,5 +1,5 @@
 <template>
-  <v-row class="first-parallax">
+  <v-row class="first-content">
     <Parallax photoSrc="http://materializecss.com/images/parallax1.jpg">
         <v-container>
           <v-row>
