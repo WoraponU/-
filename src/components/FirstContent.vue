@@ -14,6 +14,20 @@
               </p>                 
             </v-grid>
           </v-row>
+
+          <v-row class="contact">
+            <v-grid s12 m12 l12 center>
+              <a v-tooltip:left="'http://www.facebook.com'" href="http://www.facebook.com" target="_blank" class="btn btn-floating pulse">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a v-tooltip:top="'line: woraponok'" class="btn btn-floating pulse">
+                Line
+              </a>
+              <a v-tooltip:right="'tel: 082-1234321'" class="btn btn-floating pulse">
+                <i class="fa fa-phone" aria-hidden="true"></i>                
+              </a>
+            </v-grid>
+          </v-row>    
         </v-container>
     </Parallax>
   </v-row>
@@ -25,6 +39,11 @@
   export default {
     components: {
       Parallax,
+    },
+    data () {
+      return {
+        social: 'hjlk',
+      }
     },
   }
 </script>

@@ -33,12 +33,17 @@
 
 .main-container {
   .first-content {
-    height: 130vh;
+    height: 120vh;
     margin-bottom: 0;
 
     .parallax-custom {
       display : flex;
       align-items : center;
+    }
+
+    .contact {
+      position: relative;
+      top: 30vh;
     }
   }
 
@@ -47,6 +52,7 @@
 
     height: auto;
     text-align: center;
+
     .parallax-custom {
       padding: 40px;
     }

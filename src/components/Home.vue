@@ -1,11 +1,7 @@
 <template>
   <main class="main-container">
-    
     <section>
-    <transition>
       <FirstContent></FirstContent>
-    </transition>
-      
     </section>
 
     <section>
