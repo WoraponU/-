@@ -6,12 +6,38 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <style>
+      #map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
+      <div id="map"></div>
+
     
     <script src="/dist/build.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+    <script>
+  function initMap() {
+    var uluru = {lat: 14.5577283, lng: 100.1983433};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 16,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
+</script>
+
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbOeLChrkC7IPM_4mJf4OIbeK7hnQKHQ8&callback=initMap">
+  </script>
   </body>
 </html>
