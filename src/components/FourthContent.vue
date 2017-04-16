@@ -10,7 +10,7 @@
     </v-row>
 
     <v-row>
-      <v-grid s12 m6 l4>
+      <v-grid s12 m6 l3>
          <div class="card">
             <div class="card-image">
               <div id="map"></div>  
@@ -25,7 +25,7 @@
           </div>
       </v-grid>
 
-      <v-grid s12 m6 l4>
+      <v-grid s12 m6 l3>
          <div class="card">
             <div class="card-image">
               <img src="http://qr-image.visualead.com/blog/wp-content/uploads/2014/03/Logo-QR-code.png">
@@ -37,20 +37,44 @@
           </div>
       </v-grid>
 
-      <v-grid s12 m6 l4>
-         <div class="card">
-            <div class="card-image">
-              <img src="http://materializecss.com/images/sample-1.jpg">
-              <span class="card-title">Card Title</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
+      <v-grid s12 m6 l3>
+        <div class="card">
+          <div class="card-image">
+            <div class="fb-page" 
+            data-href="https://www.facebook.com/DinsxPhxng"
+            data-width="380" 
+            data-hide-cover="false"
+            data-show-facepile="false" 
+            data-show-posts="false"></div>
           </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </v-grid>
+
+      <v-grid s12 m6 l3>
+        <div class="card">
+          <div class="card-image">
+            <div class="fb-page" 
+            data-href="https://www.facebook.com/DinsxPhxng"
+            data-width="380" 
+            data-hide-cover="false"
+            data-show-facepile="false" 
+            data-show-posts="false"></div>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
       </v-grid>
     </v-row>
   </v-container>
