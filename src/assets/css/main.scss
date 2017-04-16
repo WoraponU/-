@@ -26,7 +26,7 @@
   }
 }
 
-/////////////////////////////////////
+//////////////// Body /////////////////////
 .nav-wrapper {
   // background-color: red;
 }
@@ -59,18 +59,60 @@
   }
 
   .third-content {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    padding: 30px;
-    margin-bottom: 0
+    &-head {
+      text-align: center;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 30px;
+      margin-bottom: 0
+    }
+
+    &-body {
+      margin-bottom: 0;
+      
+      .col {
+        padding: 0;      
+      }
+    }
   }
 
   .fourth-content {
-    margin-bottom: 0;
-    
-    .col {
-      padding: 0;      
+    &-head {
+      @extend .third-content-head;
+    }
+
+    &-body {
+      .card-facebook {
+        height: 310px;
+      }
+
+      .card {
+        &.horizontal {
+          .card-image {
+            &-facebook {
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-align-items: center;
+              -ms-flex-align: center;
+              align-items: center;
+              color: grey;
+              width: 50px;
+              font-size: 35px;
+              padding: 11px;
+              height: 138px;
+            }
+
+            &-line {
+              @extend .card-image-facebook;               
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -79,4 +121,12 @@ footer {
   &.page-footer {
     margin-top: 0;
   }
+}
+
+
+////////////// google map///////////////
+#map {
+  width: 100%;
+  height: 200px;
+  background-color: grey;
 }

@@ -20,10 +20,10 @@
               <a v-tooltip:left="'http://www.facebook.com'" href="http://www.facebook.com" target="_blank" class="btn btn-floating pulse">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
-              <a v-tooltip:top="'line: woraponok'" class="btn btn-floating pulse">
+              <a v-tooltip:top="'line: woraponok'" class="btn btn-floating pulse" target="_blank" href="http://line.me/ti/p/ZISGttE_L9">
                 Line
               </a>
-              <a v-tooltip:right="'tel: 082-1234321'" class="btn btn-floating pulse">
+              <a v-tooltip:right="'tel: 082-1234321'" class="btn btn-floating pulse" href="tel:+083234342">
                 <i class="fa fa-phone" aria-hidden="true"></i>                
               </a>
             </v-grid>
