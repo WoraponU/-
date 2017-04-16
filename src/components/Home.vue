@@ -19,6 +19,10 @@
     <section>
       <FiveContent></FiveContent>
     </section>
+
+    <section>
+      <SixContent></SixContent>
+    </section>
   </main>
 </template>
 
@@ -28,6 +32,7 @@
   import ThirdContent from './ThirdContent.vue'
   import FourthContent from './FourthContent.vue'
   import FiveContent from './FiveContent.vue'
+  import SixContent from './SixContent.vue'
 
   export default {
     components: {
@@ -36,6 +41,7 @@
       ThirdContent, 
       FourthContent, 
       FiveContent, 
+      SixContent, 
     },
   }
 </script>
