@@ -3,7 +3,7 @@
     <v-row class="fourth-content-head">    
       <v-grid s12 m12 l12>
       <div class="section">
-        <h4>Contact Me</h4>
+        <h4>Contact Us</h4>
       </div>
       <div class="divider"></div>
       </v-grid>
