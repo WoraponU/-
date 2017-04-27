@@ -1,29 +1,23 @@
 <template>
   <div id="app">
-    <PageHeader></PageHeader>
+    <img src="./assets/logo.png">
     <router-view></router-view>
-    <PageFooter></PageFooter>    
   </div>
 </template>
 
 <script>
-  import PageHeader from './components/PageHeader.vue'
-  import PageFooter from './components/PageFooter.vue'
-
-  export default {
-    name: 'app',
-    components: {
-      PageHeader,
-      PageFooter,
-    },
-    data () {
-      return {
-        // msg: 'Welcome to Your Vue.js App'
-      }
-    }
-  }
+export default {
+  name: 'app',
+};
 </script>
 
-<style lang="scss">
-    @import "../src/assets/css/main.scss";
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>
